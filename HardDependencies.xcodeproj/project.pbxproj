@@ -22,6 +22,12 @@
 		225B11F727AC515300FF513A /* ClosurePropertyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 225B11F627AC515300FF513A /* ClosurePropertyViewController.swift */; };
 		225B11FA27AC52A000FF513A /* OverrideViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 225B11F827AC52A000FF513A /* OverrideViewController.swift */; };
 		225B11FB27AC52A000FF513A /* OverrideViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 225B11F927AC52A000FF513A /* OverrideViewController.xib */; };
+		225B11FE27AC536C00FF513A /* InstanceInitializerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 225B11FC27AC536C00FF513A /* InstanceInitializerViewController.swift */; };
+		225B11FF27AC536C00FF513A /* InstanceInitializerViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 225B11FD27AC536C00FF513A /* InstanceInitializerViewController.xib */; };
+		225B120227AC538A00FF513A /* ClosureInitializerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 225B120027AC538A00FF513A /* ClosureInitializerViewController.swift */; };
+		225B120327AC538A00FF513A /* ClosureInitializerViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 225B120127AC538A00FF513A /* ClosureInitializerViewController.xib */; };
+		225B120627AC53B500FF513A /* MySingletonViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 225B120427AC53B500FF513A /* MySingletonViewController.swift */; };
+		225B120727AC53B500FF513A /* MySingletonViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 225B120527AC53B500FF513A /* MySingletonViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -61,6 +67,12 @@
 		225B11F627AC515300FF513A /* ClosurePropertyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClosurePropertyViewController.swift; sourceTree = "<group>"; };
 		225B11F827AC52A000FF513A /* OverrideViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OverrideViewController.swift; sourceTree = "<group>"; };
 		225B11F927AC52A000FF513A /* OverrideViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = OverrideViewController.xib; sourceTree = "<group>"; };
+		225B11FC27AC536C00FF513A /* InstanceInitializerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InstanceInitializerViewController.swift; sourceTree = "<group>"; };
+		225B11FD27AC536C00FF513A /* InstanceInitializerViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = InstanceInitializerViewController.xib; sourceTree = "<group>"; };
+		225B120027AC538A00FF513A /* ClosureInitializerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClosureInitializerViewController.swift; sourceTree = "<group>"; };
+		225B120127AC538A00FF513A /* ClosureInitializerViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ClosureInitializerViewController.xib; sourceTree = "<group>"; };
+		225B120427AC53B500FF513A /* MySingletonViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MySingletonViewController.swift; sourceTree = "<group>"; };
+		225B120527AC53B500FF513A /* MySingletonViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MySingletonViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -124,6 +136,12 @@
 				225B11F627AC515300FF513A /* ClosurePropertyViewController.swift */,
 				225B11F827AC52A000FF513A /* OverrideViewController.swift */,
 				225B11F927AC52A000FF513A /* OverrideViewController.xib */,
+				225B11FC27AC536C00FF513A /* InstanceInitializerViewController.swift */,
+				225B11FD27AC536C00FF513A /* InstanceInitializerViewController.xib */,
+				225B120027AC538A00FF513A /* ClosureInitializerViewController.swift */,
+				225B120127AC538A00FF513A /* ClosureInitializerViewController.xib */,
+				225B120427AC53B500FF513A /* MySingletonViewController.swift */,
+				225B120527AC53B500FF513A /* MySingletonViewController.xib */,
 			);
 			path = HardDependencies;
 			sourceTree = "<group>";
@@ -249,10 +267,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				225B11FF27AC536C00FF513A /* InstanceInitializerViewController.xib in Resources */,
 				225B11CD27AC3D3500FF513A /* LaunchScreen.storyboard in Resources */,
 				225B11CA27AC3D3500FF513A /* Assets.xcassets in Resources */,
 				225B11FB27AC52A000FF513A /* OverrideViewController.xib in Resources */,
 				225B11C827AC3D3400FF513A /* Main.storyboard in Resources */,
+				225B120327AC538A00FF513A /* ClosureInitializerViewController.xib in Resources */,
+				225B120727AC53B500FF513A /* MySingletonViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -282,8 +303,11 @@
 				225B11F127AC3F7300FF513A /* Analytics.swift in Sources */,
 				225B11F327AC40FB00FF513A /* MySingletonAnalytics.swift in Sources */,
 				225B11F527AC50ED00FF513A /* InstancePropertyViewController.swift in Sources */,
+				225B120627AC53B500FF513A /* MySingletonViewController.swift in Sources */,
 				225B11C327AC3D3400FF513A /* SceneDelegate.swift in Sources */,
 				225B11FA27AC52A000FF513A /* OverrideViewController.swift in Sources */,
+				225B120227AC538A00FF513A /* ClosureInitializerViewController.swift in Sources */,
+				225B11FE27AC536C00FF513A /* InstanceInitializerViewController.swift in Sources */,
 				225B11F727AC515300FF513A /* ClosurePropertyViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
