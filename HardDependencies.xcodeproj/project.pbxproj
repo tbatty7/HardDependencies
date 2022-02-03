@@ -28,6 +28,7 @@
 		225B120327AC538A00FF513A /* ClosureInitializerViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 225B120127AC538A00FF513A /* ClosureInitializerViewController.xib */; };
 		225B120627AC53B500FF513A /* MySingletonViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 225B120427AC53B500FF513A /* MySingletonViewController.swift */; };
 		225B120727AC53B500FF513A /* MySingletonViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 225B120527AC53B500FF513A /* MySingletonViewController.xib */; };
+		225B120927AC5BEA00FF513A /* MySingletonViewControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 225B120827AC5BEA00FF513A /* MySingletonViewControllerTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -73,6 +74,7 @@
 		225B120127AC538A00FF513A /* ClosureInitializerViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ClosureInitializerViewController.xib; sourceTree = "<group>"; };
 		225B120427AC53B500FF513A /* MySingletonViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MySingletonViewController.swift; sourceTree = "<group>"; };
 		225B120527AC53B500FF513A /* MySingletonViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MySingletonViewController.xib; sourceTree = "<group>"; };
+		225B120827AC5BEA00FF513A /* MySingletonViewControllerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MySingletonViewControllerTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -150,6 +152,7 @@
 			isa = PBXGroup;
 			children = (
 				225B11D727AC3D3500FF513A /* HardDependenciesTests.swift */,
+				225B120827AC5BEA00FF513A /* MySingletonViewControllerTests.swift */,
 			);
 			path = HardDependenciesTests;
 			sourceTree = "<group>";
@@ -316,6 +319,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				225B120927AC5BEA00FF513A /* MySingletonViewControllerTests.swift in Sources */,
 				225B11D827AC3D3500FF513A /* HardDependenciesTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
