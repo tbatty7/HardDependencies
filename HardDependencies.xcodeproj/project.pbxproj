@@ -20,6 +20,8 @@
 		225B11F327AC40FB00FF513A /* MySingletonAnalytics.swift in Sources */ = {isa = PBXBuildFile; fileRef = 225B11F227AC40FB00FF513A /* MySingletonAnalytics.swift */; };
 		225B11F527AC50ED00FF513A /* InstancePropertyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 225B11F427AC50ED00FF513A /* InstancePropertyViewController.swift */; };
 		225B11F727AC515300FF513A /* ClosurePropertyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 225B11F627AC515300FF513A /* ClosurePropertyViewController.swift */; };
+		225B11FA27AC52A000FF513A /* OverrideViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 225B11F827AC52A000FF513A /* OverrideViewController.swift */; };
+		225B11FB27AC52A000FF513A /* OverrideViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 225B11F927AC52A000FF513A /* OverrideViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,6 +59,8 @@
 		225B11F227AC40FB00FF513A /* MySingletonAnalytics.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MySingletonAnalytics.swift; sourceTree = "<group>"; };
 		225B11F427AC50ED00FF513A /* InstancePropertyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InstancePropertyViewController.swift; sourceTree = "<group>"; };
 		225B11F627AC515300FF513A /* ClosurePropertyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClosurePropertyViewController.swift; sourceTree = "<group>"; };
+		225B11F827AC52A000FF513A /* OverrideViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OverrideViewController.swift; sourceTree = "<group>"; };
+		225B11F927AC52A000FF513A /* OverrideViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = OverrideViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -118,6 +122,8 @@
 				225B11F227AC40FB00FF513A /* MySingletonAnalytics.swift */,
 				225B11F427AC50ED00FF513A /* InstancePropertyViewController.swift */,
 				225B11F627AC515300FF513A /* ClosurePropertyViewController.swift */,
+				225B11F827AC52A000FF513A /* OverrideViewController.swift */,
+				225B11F927AC52A000FF513A /* OverrideViewController.xib */,
 			);
 			path = HardDependencies;
 			sourceTree = "<group>";
@@ -245,6 +251,7 @@
 			files = (
 				225B11CD27AC3D3500FF513A /* LaunchScreen.storyboard in Resources */,
 				225B11CA27AC3D3500FF513A /* Assets.xcassets in Resources */,
+				225B11FB27AC52A000FF513A /* OverrideViewController.xib in Resources */,
 				225B11C827AC3D3400FF513A /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -276,6 +283,7 @@
 				225B11F327AC40FB00FF513A /* MySingletonAnalytics.swift in Sources */,
 				225B11F527AC50ED00FF513A /* InstancePropertyViewController.swift in Sources */,
 				225B11C327AC3D3400FF513A /* SceneDelegate.swift in Sources */,
+				225B11FA27AC52A000FF513A /* OverrideViewController.swift in Sources */,
 				225B11F727AC515300FF513A /* ClosurePropertyViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

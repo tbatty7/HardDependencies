@@ -41,7 +41,7 @@
         <!--Closure Property View Controller-->
         <scene sceneID="tFO-02-9Pg">
             <objects>
-                <viewController id="VtP-bP-2aT" customClass="ClosurePropertyViewController" customModule="HardDependencies" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="ClosurePropertyViewController" id="VtP-bP-2aT" customClass="ClosurePropertyViewController" customModule="HardDependencies" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="aDQ-Pf-pya">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
