@@ -24,5 +24,6 @@ class MySingletonViewControllerTests: XCTestCase {
         let viewController = MySingletonViewController()
         viewController.loadViewIfNeeded()
         viewController.viewDidAppear(false)
+        // Assert something
     }
 }
