@@ -16,6 +16,10 @@
 		225B11D827AC3D3500FF513A /* HardDependenciesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 225B11D727AC3D3500FF513A /* HardDependenciesTests.swift */; };
 		225B11E227AC3D3500FF513A /* HardDependenciesUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 225B11E127AC3D3500FF513A /* HardDependenciesUITests.swift */; };
 		225B11E427AC3D3500FF513A /* HardDependenciesUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 225B11E327AC3D3500FF513A /* HardDependenciesUITestsLaunchTests.swift */; };
+		225B11F127AC3F7300FF513A /* Analytics.swift in Sources */ = {isa = PBXBuildFile; fileRef = 225B11F027AC3F7300FF513A /* Analytics.swift */; };
+		225B11F327AC40FB00FF513A /* MySingletonAnalytics.swift in Sources */ = {isa = PBXBuildFile; fileRef = 225B11F227AC40FB00FF513A /* MySingletonAnalytics.swift */; };
+		225B11F527AC50ED00FF513A /* InstancePropertyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 225B11F427AC50ED00FF513A /* InstancePropertyViewController.swift */; };
+		225B11F727AC515300FF513A /* ClosurePropertyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 225B11F627AC515300FF513A /* ClosurePropertyViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +53,10 @@
 		225B11DD27AC3D3500FF513A /* HardDependenciesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HardDependenciesUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		225B11E127AC3D3500FF513A /* HardDependenciesUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HardDependenciesUITests.swift; sourceTree = "<group>"; };
 		225B11E327AC3D3500FF513A /* HardDependenciesUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HardDependenciesUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		225B11F027AC3F7300FF513A /* Analytics.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Analytics.swift; sourceTree = "<group>"; };
+		225B11F227AC40FB00FF513A /* MySingletonAnalytics.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MySingletonAnalytics.swift; sourceTree = "<group>"; };
+		225B11F427AC50ED00FF513A /* InstancePropertyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InstancePropertyViewController.swift; sourceTree = "<group>"; };
+		225B11F627AC515300FF513A /* ClosurePropertyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClosurePropertyViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +114,10 @@
 				225B11C927AC3D3500FF513A /* Assets.xcassets */,
 				225B11CB27AC3D3500FF513A /* LaunchScreen.storyboard */,
 				225B11CE27AC3D3500FF513A /* Info.plist */,
+				225B11F027AC3F7300FF513A /* Analytics.swift */,
+				225B11F227AC40FB00FF513A /* MySingletonAnalytics.swift */,
+				225B11F427AC50ED00FF513A /* InstancePropertyViewController.swift */,
+				225B11F627AC515300FF513A /* ClosurePropertyViewController.swift */,
 			);
 			path = HardDependencies;
 			sourceTree = "<group>";
@@ -260,7 +272,11 @@
 			files = (
 				225B11C527AC3D3400FF513A /* ViewController.swift in Sources */,
 				225B11C127AC3D3400FF513A /* AppDelegate.swift in Sources */,
+				225B11F127AC3F7300FF513A /* Analytics.swift in Sources */,
+				225B11F327AC40FB00FF513A /* MySingletonAnalytics.swift in Sources */,
+				225B11F527AC50ED00FF513A /* InstancePropertyViewController.swift in Sources */,
 				225B11C327AC3D3400FF513A /* SceneDelegate.swift in Sources */,
+				225B11F727AC515300FF513A /* ClosurePropertyViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
