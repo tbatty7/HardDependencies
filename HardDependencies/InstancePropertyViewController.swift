@@ -15,6 +15,10 @@ class InstancePropertyViewController: UIViewController {
         // Do any additional setup after loading the view.
     }
     
+    override func viewDidAppear(_ animated: Bool) {
+        super.viewDidAppear(animated)
+        Analytics.shared.track(event: "viewDidAppear - \(type(of: self))")
+    }
 
     /*
     // MARK: - Navigation
