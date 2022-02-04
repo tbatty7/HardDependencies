@@ -11,7 +11,7 @@ import XCTest
 class ClosureInitializerViewControllerTests: XCTestCase {
 
     func test_viewDidAppear() throws {
-        let viewController = ClosureInitializerViewController{Analytics()}
+        let viewController = ClosureInitializerViewController(makeAnalytics: {Analytics()})
         viewController.loadViewIfNeeded()
         viewController.viewDidAppear(false)
         

@@ -9,15 +9,11 @@ import UIKit
 
 class ClosurePropertyViewController: UIViewController {
 
-    override func viewDidLoad() {
-        super.viewDidLoad()
-
-        // Do any additional setup after loading the view.
-    }
+    var makeAnalytics: () -> Analytics = { Analytics.shared } // <-- property with a closure, no need to make it lazy because a closure won't execute until it is called.
     
     override func viewDidAppear(_ animated: Bool) {
         super.viewDidAppear(animated)
-        Analytics.shared.track(event: "viewDidAppear - \(type(of: self))")
+        makeAnalytics().track(event: "viewDidAppear - \(type(of: self))")
     }
 
 
