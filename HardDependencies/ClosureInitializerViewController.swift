@@ -20,12 +20,6 @@ class ClosureInitializerViewController: UIViewController {
         fatalError("init(coder:) has not been implemented")
     }
     
-    override func viewDidLoad() {
-        super.viewDidLoad()
-
-        // Do any additional setup after loading the view.
-    }
-    
     override func viewDidAppear(_ animated: Bool) {
         super.viewDidAppear(animated)
         makeAnalytics().track(event: "viewDidAppear - \(type(of: self))")
